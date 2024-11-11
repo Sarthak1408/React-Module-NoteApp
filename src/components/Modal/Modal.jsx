@@ -40,8 +40,6 @@ const Modal = ({noteActive, noteGroups, setNewNoteGroup, setNoteActive, setNoteG
             notes: [],
         };
         setNewNoteGroup([...noteGroups, newGroup]);
-        // const updatedNoteGroups = [...noteGroups, newGroup];
-        // setNoteGroups(updatedNoteGroups)
         localStorage.setItem(
             "noteGroups",
             JSON.stringify([...noteGroups, newGroup])
