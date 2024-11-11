@@ -1,0 +1,50 @@
+.none {
+    display: flex;
+}
+.Title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Bottom {
+    position: fixed;
+    bottom: 1rem;
+    left: 55%;
+}
+.homepage {
+    width: 70%;
+    position: fixed;
+    right: 0;
+}
+
+.Description {
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .none {
+        display: none !important;
+    }
+    .Title {
+        font-size: 1.5rem;
+    }
+    .homepage {
+        width: 93%;
+        position: fixed;
+        right: auto;
+    }
+    .Bottom {
+        position: fixed;
+        bottom: 1rem;
+        left: 28%;
+    }
+    .homeImg {
+        width: 280px !important;
+    }
+    .Description {
+        width: 100%;
+        line-height: 1.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
